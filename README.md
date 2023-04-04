@@ -13,6 +13,8 @@ The main point are UInputQueueAnimNotifyState, UInputQueueAbilitySystemComponent
 
 ![Screenshot](AbilityDefaults.png)
 
+Class defaults of UInputQueueGameplayAbility-derived blueprint classes. Be sure to also specify the ability input.
+
 ![Screenshot](Sequencer.png)
 If an ability gets queued during this time window, once the anim notify ends the currently active ability get cancelled and the queued ability commits.
 
